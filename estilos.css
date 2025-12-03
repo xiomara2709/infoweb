@@ -1,0 +1,95 @@
+ /* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #222;
+}
+
+/* Encabezado */
+header {
+  background-color: #05889c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navegación */
+nav {
+  background-color: #1976d2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Títulos */
+h2 {
+  color: #0d47a1;
+}
+
+/* Imágenes */
+.imagen {
+  display: block;
+  margin: 15px auto;
+  max-width: 350px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.imagen:hover {
+  transform: scale(1.05);
+}
+
+/* Video y audio */
+video, audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Formulario básico */
+form {
+  background-color: #eef5fb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
